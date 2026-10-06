@@ -1,0 +1,54 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px; /* Kutuyu biraz yukarıdan başlatır */
+    margin: 0;
+}
+
+.board-container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #242424; /* Görseldeki koyu gri kutu rengi */
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+h1 {
+    color: #ffc107; /* Görseldeki sarı tonu */
+    text-align: center;
+    border-bottom: 1px solid #444; /* İnce alt çizgi */
+    padding-bottom: 20px;
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 16px 10px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    color: #a0a0a0; /* Tablo başlıklarındaki soluk gri renk */
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* "Uçuş verileri bekleniyor..." yazısının ayarı */
+#flights-body td {
+    color: #ffc107; 
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+}
